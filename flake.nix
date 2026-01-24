@@ -10,17 +10,34 @@
       nixpkgs,
       nvf,
       ...
-    }:
+    }@inputs:
     let
+      forEachSystem = nixpkgs.lib.getAttrs [
+        "x86_64-linux"
+        "aarch64-linux"
+        "x86_64-darwin"
+        "aarch64-darwin"
+      ];
 
-      system = "x86_64-linux";
     in
     {
-      packages.${system}.default =
-        (nvf.lib.neovimConfiguration {
-          pkgs = nixpkgs.legacyPackages.${system};
-          modules = [ ./plugins ];
-        }).neovim;
-    };
+      packages = forEachSystem (
+        system:
+        let
+          pkgs = inputs.nixpkgs.legacyPackages.${system};
+          configModule = import ./plugins;
+          neovimConfigured = inputs.nvf.lib.neovimConfiguration {
+            inherit pkgs;
 
+            modules = [ configModule ];
+
+          };
+        in
+        {
+
+          neovim = neovimConfigured.neovim;
+          default = self.packages.${system}.neovim;
+        }
+      );
+    };
 }
