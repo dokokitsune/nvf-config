@@ -7,10 +7,12 @@
       nix = {
         enable = true;
         lsp.servers = ["nixd"];
-        format.type = ["nixfmt"];
       };
       ts = {
         enable = true;
+        format = {
+          type = ["prettierd"];
+        };
       };
       python = {
         enable = true;
@@ -28,6 +30,9 @@
         enable = true;
       };
       lua = {
+        enable = true;
+      };
+      go = {
         enable = true;
       };
       yaml = {
