@@ -1,13 +1,20 @@
 {
-  vim.utility = {
-    yazi-nvim = {
-      enable = true;
-      mappings = {
-        openYazi = "<leader>y";
+  vim = {
+    utility = {
+
+      surround = {
+        enable = true;
       };
     };
-    surround = {
-      enable = true;
+    terminal = {
+      toggleterm = {
+        enable = true;
+        lazygit = {
+          enable = true;
+          mappings.open = "lg";
+        };
+      };
     };
   };
+
 }

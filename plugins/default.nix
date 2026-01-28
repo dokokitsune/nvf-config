@@ -1,11 +1,13 @@
 {
   imports = [
+    ./extra-packages.nix
     ./autopairs.nix
     ./blink-cmp.nix
     ./telescope.nix
     ./languages.nix
     ./notify.nix
     ./ui.nix
+    ./keymaps.nix
     ./statusline.nix
     ./extra-plugins.nix
     ./options.nix

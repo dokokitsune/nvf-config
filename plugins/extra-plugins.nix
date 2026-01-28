@@ -9,5 +9,11 @@
       package = pkgs.vimPlugins.smear-cursor-nvim;
       setup = "require('smear_cursor').toggle()";
     };
+    
+      triptych-nvim = {
+        package = pkgs.vimPlugins.triptych-nvim;
+      setup = "require('triptych').setup()";
+      };
+  
   };
 }

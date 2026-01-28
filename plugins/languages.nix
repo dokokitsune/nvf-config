@@ -6,7 +6,6 @@
       enableTreesitter = true;
       nix = {
         enable = true;
-        lsp.servers = ["nixd"];
       };
       ts = {
         enable = true;
