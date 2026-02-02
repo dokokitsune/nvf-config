@@ -2,6 +2,7 @@
   imports = [
     ./extra-packages.nix
     ./autopairs.nix
+    ./snippets.nix
     ./blink-cmp.nix
     ./telescope.nix
     ./languages.nix

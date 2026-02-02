@@ -24,6 +24,9 @@
           enabled = true;
         };
 
+        snippets = {
+          preset = "luasnip";
+        };
       };
     };
 
