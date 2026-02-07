@@ -11,7 +11,7 @@
         enable = true;
         lazygit = {
           enable = true;
-          mappings.open = "lg";
+          mappings.open = "<leader>lg";
         };
       };
     };

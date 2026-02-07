@@ -17,5 +17,6 @@
     ./lsp.nix
     ./mini.nix
     ./utilities.nix
+    ./binds.nix
   ];
 }
