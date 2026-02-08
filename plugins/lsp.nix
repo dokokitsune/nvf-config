@@ -1,3 +1,9 @@
+{ lib, ... }:
+
+let
+  inherit (lib.generators) mkLuaInline;
+
+in
 {
   vim.lsp = {
     enable = true;
@@ -6,6 +12,9 @@
     };
     null-ls = {
       enable = true;
+      setupOpts = {
+        sources = [ (mkLuaInline ''require("null-ls").builtins.formatting.yamlfmt'') ];
+      };
     };
     lspconfig = {
       enable = true;
