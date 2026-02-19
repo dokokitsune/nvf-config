@@ -1,7 +1,7 @@
 {
   vim.binds = {
     whichKey = {
-    enable = true;
-  };
+      enable = true;
+    };
   };
 }
