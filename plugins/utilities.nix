@@ -5,6 +5,17 @@
       surround = {
         enable = true;
       };
+      snacks-nvim = {
+        enable = true;
+        setupOpts = {
+          image = {
+            enabled = true;
+          };
+          input = {
+            enabled = true;
+          };
+        };
+      };
     };
     terminal = {
       toggleterm = {
