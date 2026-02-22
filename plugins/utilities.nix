@@ -8,7 +8,7 @@
       snacks-nvim = {
         enable = true;
         setupOpts = {
-          image = {
+          indent = {
             enabled = true;
           };
           input = {
