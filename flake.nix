@@ -14,7 +14,6 @@
       ...
     }@inputs:
     flake-parts.lib.mkFlake { inherit inputs; } {
-      # Define supported systems
       systems = [
         "x86_64-linux"
         "aarch64-linux"
@@ -23,9 +22,12 @@
       ];
 
       perSystem =
-        { system, ... }:
+        { system, pkgs, ... }:
         let
-          pkgs = nixpkgs.legacyPackages.${system};
+          pkgs = import nixpkgs {
+            inherit system;
+            config.allowUnfree = true;
+          };
         in
         {
           packages.default =

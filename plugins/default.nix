@@ -18,6 +18,5 @@
     ./mini.nix
     ./utilities.nix
     ./binds.nix
-    ./ai.nix
   ];
 }
