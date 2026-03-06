@@ -23,7 +23,7 @@
       setup = ''
         require('copilot').setup({
           suggestion = {
-            enabled = true,
+            enabled = false,
             auto_trigger = true,
             accept = false,
           },
@@ -37,6 +37,10 @@
           },
         })
       '';
+    };
+    blink-cmp-copilot = {
+      package = pkgs.vimPlugins.blink-cmp-copilot;
+      setup = "require('blink-cmp-copilot')";
     };
 
   };
