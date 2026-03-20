@@ -4,5 +4,6 @@
     pkgs.lazygit
     pkgs.yamlfmt
     pkgs.fd
+    pkgs.nodejs-slim
   ];
 }

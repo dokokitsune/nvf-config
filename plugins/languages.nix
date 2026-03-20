@@ -10,7 +10,7 @@
       ts = {
         enable = true;
         format = {
-          type = ["prettierd"];
+          type = [ "prettierd" ];
         };
       };
       python = {
