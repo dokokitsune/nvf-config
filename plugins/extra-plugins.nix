@@ -13,11 +13,6 @@
       package = pkgs.vimPlugins.triptych-nvim;
       setup = "require('triptych').setup()";
     };
-    claude-code-nvim = {
-      package = pkgs.vimPlugins.claude-code-nvim;
-      setup = ''
-        require('claude-code').setup({})'';
-    };
     copilot-lua = {
       package = pkgs.vimPlugins.copilot-lua;
       setup = ''

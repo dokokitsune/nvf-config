@@ -40,6 +40,9 @@
       bash = {
         enable = true;
       };
+      css = {
+        enable = true;
+      };
     };
   };
 }
