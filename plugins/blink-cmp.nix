@@ -40,6 +40,7 @@
         signature = {
           enabled = true;
         };
+    fuzzy = { implementation = "lua"; };
 
         snippets = {
           preset = "luasnip";
