@@ -3,7 +3,8 @@
     ./extra-packages.nix
     ./autopairs.nix
     ./snippets.nix
-    ./blink-cmp.nix
+    #    ./blink-cmp.nix
+    ./cmp.nix
     ./telescope.nix
     ./languages.nix
     ./notify.nix

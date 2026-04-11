@@ -5,7 +5,6 @@
     flake-parts.url = "github:hercules-ci/flake-parts";
     nvf.url = "github:NotAShelf/nvf";
   };
-
   outputs =
     {
       nixpkgs,
