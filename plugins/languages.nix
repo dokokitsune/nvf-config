@@ -16,9 +16,6 @@
       python = {
         enable = true;
       };
-      sql = {
-        enable = true;
-      };
       helm = {
         enable = true;
       };
@@ -29,9 +26,6 @@
         enable = true;
       };
       lua = {
-        enable = true;
-      };
-      go = {
         enable = true;
       };
       yaml = {

@@ -21,7 +21,7 @@
       ];
 
       perSystem =
-        { system, pkgs, ... }:
+        { system, ... }:
         let
           pkgs = import nixpkgs {
             inherit system;
