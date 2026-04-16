@@ -18,6 +18,7 @@
       tabstop = 2;
       shiftwidth = 2;
       cmdheight = 0;
+      opt.foldlevelstart = 99;
     };
 
   };
