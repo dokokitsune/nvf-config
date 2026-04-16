@@ -13,7 +13,10 @@ in
     null-ls = {
       enable = true;
       setupOpts = {
-        sources = [ (mkLuaInline ''require("null-ls").builtins.formatting.yamlfmt'') ];
+        sources = [
+          (mkLuaInline ''require("null-ls").builtins.formatting.yamlfmt'')
+          (mkLuaInline ''require("null-ls").builtins.formatting.black'')
+        ];
       };
     };
     lspconfig = {

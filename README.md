@@ -8,11 +8,9 @@ This is my personal [NVF](https://github.com/NotAShelf/nvf) Configuration with t
 - Python
 - TS/JS
 - Terraform
-- Go
 - Markdown
 - HTML/CSS
 - JSON, YAML, TOML
 - Helm
-- SQL
 
 

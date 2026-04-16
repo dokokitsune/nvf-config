@@ -15,6 +15,7 @@
       };
       python = {
         enable = true;
+        lsp.servers = ["pyrefly"];
       };
       helm = {
         enable = true;

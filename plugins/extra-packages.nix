@@ -2,7 +2,6 @@
 {
   vim.extraPackages = [
     pkgs.lazygit
-    pkgs.yamlfmt
     pkgs.fd
     pkgs.nodejs-slim
     pkgs.ripgrep
@@ -10,5 +9,9 @@
     pkgs.dockerfile-language-server
     pkgs.docker-compose-language-service
 
+    # Formating 
+    pkgs.black
+    pkgs.yamlfmt
+    pkgs.prettierd
   ];
 }
