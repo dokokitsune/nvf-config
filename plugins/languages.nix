@@ -38,6 +38,9 @@
       css = {
         enable = true;
       };
+      toml = {
+        enable = true;
+      };
     };
   };
 }
