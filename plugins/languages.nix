@@ -22,7 +22,7 @@
       };
       terraform = {
         enable = true;
-        lsp.servers = ["terraform-ls"];
+        lsp.servers = ["terraformls-tf"];
       };
       cmake = {
         enable = true;
