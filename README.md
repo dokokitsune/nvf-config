@@ -8,6 +8,7 @@ This is my personal [NVF](https://github.com/NotAShelf/nvf) Configuration with t
 - Python
 - TS/JS
 - Terraform
+- Cmake
 - Markdown
 - HTML/CSS
 - JSON, YAML, TOML

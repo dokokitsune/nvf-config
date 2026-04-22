@@ -22,7 +22,10 @@
       };
       terraform = {
         enable = true;
-        lsp.servers = ["terraform-ls"]
+        lsp.servers = ["terraform-ls"];
+      };
+      cmake = {
+        enable = true;
       };
       markdown = {
         enable = true;
@@ -40,6 +43,9 @@
         enable = true;
       };
       toml = {
+        enable = true;
+      };
+      json = {
         enable = true;
       };
     };
