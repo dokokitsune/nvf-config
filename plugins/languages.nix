@@ -22,6 +22,7 @@
       };
       terraform = {
         enable = true;
+        lsp.servers = ["terraform-ls"]
       };
       markdown = {
         enable = true;
