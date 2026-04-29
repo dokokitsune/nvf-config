@@ -16,6 +16,8 @@ in
         sources = [
           (mkLuaInline ''require("null-ls").builtins.formatting.yamlfmt'')
           (mkLuaInline ''require("null-ls").builtins.formatting.black'')
+          (mkLuaInline ''require("null-ls").builtins.diagnostics.trivy'')
+          (mkLuaInline ''require("null-ls").builtins.diagnostics.kube_linter'')
         ];
       };
     };

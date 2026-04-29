@@ -9,9 +9,15 @@
     pkgs.dockerfile-language-server
     pkgs.docker-compose-language-service
 
-    # Formating 
+    # Formating
     pkgs.black
     pkgs.yamlfmt
     pkgs.prettierd
+
+    # Linting
+    pkgs.kube-linter
+
+    # Diagnostic
+    pkgs.trivy
   ];
 }
