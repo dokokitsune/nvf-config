@@ -15,20 +15,21 @@
       };
       python = {
         enable = true;
-        lsp.servers = ["pyrefly"];
+        lsp.servers = [ "pyrefly" ];
       };
       helm = {
         enable = true;
       };
       terraform = {
         enable = true;
-        lsp.servers = ["terraformls-tf"];
+        lsp.servers = [ "terraformls-tf" ];
       };
       cmake = {
         enable = true;
       };
       markdown = {
         enable = true;
+        format = [ "prettierd" ];
       };
       lua = {
         enable = true;
