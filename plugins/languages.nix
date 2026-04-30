@@ -29,7 +29,9 @@
       };
       markdown = {
         enable = true;
-        format = [ "prettierd" ];
+        format = {
+          type = [ "prettierd" ];
+        };
       };
       lua = {
         enable = true;
