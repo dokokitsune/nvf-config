@@ -1,12 +1,6 @@
 {
   vim.keymaps = [
     {
-      key = "<leader>y";
-      mode = "n";
-      silent = true;
-      action = ":Triptych<CR>";
-    }
-    {
       key = "<S-Tab>";
       mode = "i";
       silent = true;

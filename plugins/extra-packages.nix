@@ -2,6 +2,7 @@
 {
   vim.extraPackages = [
     pkgs.lazygit
+    pkgs.yazi
     pkgs.fd
     pkgs.nodejs-slim
     pkgs.ripgrep
