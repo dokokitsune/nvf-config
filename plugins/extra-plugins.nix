@@ -34,5 +34,10 @@
       setup = "require('blink-cmp-copilot')";
     };
 
+    vim-moonfly = {
+      package = pkgs.vimPlugins.vim-moonfly-colors;
+        setup = "vim.cmd [[colorscheme moonfly]]";
+    };
+
   };
 }
