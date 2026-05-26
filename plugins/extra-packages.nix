@@ -9,6 +9,7 @@
     # LSP servers
     pkgs.dockerfile-language-server
     pkgs.docker-compose-language-service
+    pkgs.regal
 
     # Formating
     pkgs.black

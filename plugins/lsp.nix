@@ -30,9 +30,12 @@ in
         '';
         docker_compose_language_service = ''
           vim.lsp.enable('docker_compose_language_service');
-          vim.lsp.config('dockerls', {})
+          vim.lsp.config('docker_compose_language_service', {})
         '';
-
+        regal = ''
+          vim.lsp.enable('regal');
+          vim.lsp.config('regal', {})
+        '';
       };
     };
     otter-nvim = {
