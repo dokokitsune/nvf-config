@@ -10,7 +10,7 @@
     pkgs.dockerfile-language-server
     pkgs.docker-compose-language-service
     pkgs.regal
-
+    pkgs.just-lsp
     # Formating
     pkgs.black
     pkgs.yamlfmt
