@@ -37,7 +37,7 @@ in
           vim.lsp.config('regal', {})
         '';
         just = ''
-          vim.lsp.enable('just')';
+          vim.lsp.enable('just');
           vim.lsp.config('just', {})
         '';
       };
