@@ -2,11 +2,10 @@
 
   vim = {
 
-    clipboard = {
-      enable = true;
-      providers.wl-copy.enable = true;
-      registers = "unnamedplus";
+    globals = {
+      clipboard = "osc52";
     };
+
     options = {
       autoindent = true;
       title = true;
@@ -14,6 +13,7 @@
       shiftwidth = 2;
       cmdheight = 0;
       foldlevelstart = 99;
+      clipboard = "unnamedplus";
     };
 
   };

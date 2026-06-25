@@ -7,7 +7,7 @@
       nix = {
         enable = true;
       };
-      ts = {
+      typescript= {
         enable = true;
         format = {
           type = [ "prettierd" ];
@@ -22,7 +22,7 @@
       };
       terraform = {
         enable = true;
-        lsp.servers = [ "terraformls-tf" ];
+        lsp.servers = [ "terraform-ls" ];
       };
       cmake = {
         enable = true;
