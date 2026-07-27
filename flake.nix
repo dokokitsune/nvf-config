@@ -19,7 +19,6 @@ inputs = {
         "x86_64-darwin"
         "aarch64-darwin"
       ];
-
       perSystem =
         { system, ... }:
         let
