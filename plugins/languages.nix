@@ -10,7 +10,7 @@
       typescript= {
         enable = true;
         format = {
-          type = [ "prettierd" ];
+          type = [ "deno" ];
         };
       };
       python = {
@@ -30,7 +30,7 @@
       markdown = {
         enable = true;
         format = {
-          type = [ "prettierd" ];
+          type = [ "deno" ];
         };
       };
       lua = {
