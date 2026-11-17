@@ -9,7 +9,7 @@
     ./languages.nix
     ./notify.nix
     ./ui.nix
-    ./keymaps.nix
+    ./theme.nix
     ./statusline.nix
     ./extra-plugins.nix
     ./options.nix
